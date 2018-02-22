@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@media only screen and (max-width: 800px) {
+  .carousel-indicators li {
+    border: 2px solid #eeeeee !important;
+  }
+  .carousel-indicators .active {
+    width: 55px !important;
+    height: 55px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .brand-name {
+    font-size: 40px !important;
+  }
+  .brand-description {
+    font-size: 25px;
+  }
+  .service {
+    background-size: cover;
+  }
+  .insta-link {
+    padding: 0 20px;
+  }
+  .studio-tab {
+    width: 100%;
+    text-align: center;
+  }
+  .studio-tab:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .artist-description {
+    padding: 0 15px;
+  }
+  #quote-carousel {
+    padding: 0 10px 85px 10px !important;
+  }
+  .address {
+    display: none;
+  }
+  #form-submit {
+    width: 100%;
+  }
+}
+.diamont {
+  background-position: center;
+  background-image: url(../img/diamond-light.png);
+}
+.gallery-title {
+  margin-bottom: 0;
+  padding: 25px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.tz-gallery {
+  margin-top: 30px;
+}
+.gallery-container {
+  padding-bottom: 30px;
+}
+.bg-glyph {
+  background-repeat: no-repeat;
+  min-height: 120px;
+}
+.section-title {
+  margin: 0px;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.thumbnail {
+  margin: auto;
+  padding: 0;
+  border: none !important;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
+.thumbnail:hover {
+  -webkit-transform: translateY(-10px) scale(1.02);
+          transform: translateY(-10px) scale(1.02);
+}
+.lightbox img {
+  border-radius: 4px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+  border-radius: 4px 4px 0 0;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+.service {
+  height: auto;
+  color: #ECECEC;
+  background: url(../img/bg09.jpg);
+  background-attachment: fixed, fixed;
+  background-size: cover;
+  position: relative;
+}
+.service:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tatoo-machine {
+  background-position: center;
+  background-image: url(../img/pen-dark.png);
+}
+.service-description {
+  text-align: center;
+  padding: 50px;
+}
+.service-title {
+  margin-bottom: 20px;
+}
+.instagram-bar {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #000000;
+  padding: 50px 0;
+}
+.instagram-bar:hover {
+  color: #000000;
+}
+.instagram-bar:hover:after {
+  bottom: -60px;
+}
+.instagram-bar:after {
+  position: absolute;
+  margin: 0 13px 0 10px;
+  font-family: FontAwesome;
+  content: '\f16d';
+  bottom: -90px;
+  left: 25%;
+  color: #BDC3C7;
+  font-size: 140px;
+  z-index: -1;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  -webkit-transition: color 0.2s, bottom 0.4s;
+  transition: color 0.2s, bottom 0.4s;
+}
+.insta-link {
+  display: inline-block;
+}
+.insta-icon {
+  display: inline-block;
+  width: 126px;
+  height: 126px;
+  background-image: url(../img/instagram.jpg);
+  background-size: 100% 100%;
+}
+.strong-icon {
+  position: relative;
+}
+.strong-icon:before {
+  margin: 0 13px 0 10px;
+  font-family: FontAwesome;
+  content: '\f16d';
+}
+.studio {
+  background-color: #161616;
+  color: #ffffff;
+  background-position: center;
+  background-image: url(../img/pens-light.png);
+}
+.background-wrap {
+  width: 100%;
+  background-color: #404040;
+}
+.studio-info {
+  color: #ffffff;
+}
+.studio-info-wrap {
+  padding: 20px;
+}
+.wrap-text {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs li {
+  background-color: #000000;
+  border-radius: 0px;
+}
+.nav-tabs li:not(:last-child) {
+  margin-right: 10px;
+}
+.nav-tabs li:hover {
+  background-color: #BDC3C7;
+  color: #000000;
+  border-radius: 0px;
+}
+.nav-tabs li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: 0px;
+}
+.nav-tabs li a {
+  margin-right: 0px;
+  border-radius: 0;
+  border: none;
+}
+.nav-tabs li a:hover {
+  background-color: #000000;
+  border-radius: 0;
+}
+.studio-img {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-image: url(../img/studio.jpg);
+}
+.artist {
+  background-position: center;
+  background-image: url(../img/punch-light.png);
+}
+.zlata-img {
+  margin: auto;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  width: 265px;
+  height: 350px;
+  border-radius: 15px;
+  background-size: 100% 100%;
+  background-image: url(../img/zlata.jpg);
+}
+.artist-title {
+  padding: 20px 0;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+  background-position: center;
+  background-image: url(../img/pens-light.png);
+  background-repeat: no-repeat;
+}
+.artist-description {
+  text-align: center;
+}
+.social {
+  text-align: center;
+  font-size: 0;
+}
+.social > a {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 20px 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+.social .vkontakte {
+  background: url(../img/vk.png);
+}
+.social .vkontakte:hover {
+  background: url(../img/vkc.png);
+}
+.social .facebook {
+  background: url(../img/fb.png);
+}
+.social .facebook:hover {
+  background: url(../img/fbc.png);
+}
+.social .instagram {
+  background: url(../img/insta.png);
+}
+.social .instagram:hover {
+  background: url(../img/instac.png);
+}
+.exhortation {
+  padding: 25px 0;
+  background: url(../img/slider-1.jpg);
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.exhortation h2 {
+  color: #ffffff;
+  padding: 25px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.exhortation a {
+  color: #ffffff;
+  font-size: 25px;
+}
+.testimonials {
+  background-position: center;
+  background-image: url(../img/skull-light.png);
+}
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+  background: none;
+  color: #CACACA;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+.carousel-control.left {
+  left: -60px;
+}
+.carousel-control.right {
+  right: -60px;
+}
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+.carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  border: 4px solid #eeeeee;
+  border-radius: 50px;
+  opacity: 0.4;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.carousel-indicators .active {
+  background: #333333;
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+  border-color: #000000;
+  opacity: 1;
+  overflow: hidden;
+}
+.carousel-inner {
+  min-height: 300px;
+}
+.item blockquote {
+  border-left: none;
+  margin: 0;
+}
+.item blockquote p:before p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+.footer-background {
+  background: url(../img/bg10.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  position: relative;
+  padding-bottom: 100px;
+}
+.footer-background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.contacts {
+  color: #ffffff;
+  background-position: center;
+  background-image: url(../img/yinyang-light.png);
+}
+form,
+iframe {
+  margin-top: 20px;
+}
+.form-control {
+  border-radius: 0px;
+}
+#form-submit {
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0px;
+  padding: 10px 15px;
+  background-color: #000000 !important;
+  border: 0px;
+}
+.developer {
+  margin-top: 20px;
+}
+.developer a {
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  color: #bdc3c7 !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.developer a:hover {
+  color: #ffffff !important;
+}
+.call-bar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+.phone {
+  background-color: #404040;
+  text-align: center;
+  padding: 20px 0px;
+}
+.phone a {
+  color: #bdc3c7;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.phone a:hover {
+  color: #ffffff !important;
+}
+.address {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px 0px;
+}
+.address p {
+  color: #bdc3c7;
+  margin: 0px;
+}
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.no-padding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.padding-style {
+  padding: 50px 0;
+}
+.no-margin {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.navbar-default {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 100;
+  background-color: #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0px;
+}
+.navbar {
+  border-radius: 0px;
+}
+.navbar-collapse {
+  border: rgba(255, 255, 255, 0.2);
+}
+.navbar-nav {
+  float: none;
+}
+.nav-item {
+  text-align: center;
+}
+.nav-item-link {
+  text-transform: uppercase;
+  color: #bdc3c7 !important;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav-item-link:hover {
+  color: #ffffff !important;
+}
+.icon-bar {
+  background-color: #bdc3c7 !important;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-toggle span.icon-bar {
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.navbar-toggle span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+          transform-origin: 10% 10%;
+}
+.navbar-toggle span:nth-child(3) {
+  opacity: 0;
+}
+.navbar-toggle span:nth-child(4) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+          transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+.navbar-toggle.collapsed span:nth-child(3) {
+  opacity: 1;
+}
+.brand-name {
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  position: relative;
+}
+.brand-name,
+.brand-description {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.brand-description {
+  margin: auto;
+  text-align: center;
+}
+.brand-description {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 25px;
+  width: 300px;
+  position: relative;
+}
+.brand-description:before {
+  content: "";
+  position: absolute;
+  margin-left: -55px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/divider.png);
+}
+.brand-description:after {
+  content: "";
+  position: absolute;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/divider.png);
+}
+.brand-skill {
+  margin: auto;
+  background-size: 100% 100%;
+  width: 60px;
+  height: 70px;
+  background-image: url(../img/pirsing-icon.png);
+  position: relative;
+}
+.brand-skill:before {
+  content: "татуировки";
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -115px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.brand-skill:after {
+  content: "пирсинг";
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 35px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.v-header {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+.header-page {
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+.header-page:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -101;
+}
+.fullscreen-video-wrap video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+.header-overlay {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  opacity: 0.85;
+}
+.header-content {
+  z-index: 2;
+}
+.header-content h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,47 @@
+.instagram-bar {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: @colorBlack;
+    padding: 50px 0;
+    &:hover {
+        color: @colorBlack;
+        &:after {
+            bottom: -60px;
+        }
+    }
+    &:after {
+        position: absolute;
+        margin: 0 13px 0 10px;
+        font-family: FontAwesome;
+        content: '\f16d';
+        bottom: -90px;
+        left: 25%;
+        color: #BDC3C7;
+        font-size: 140px;
+        z-index: -1;
+        transform: rotate(-15deg);
+        transition: color 0.2s, bottom 0.4s;
+        
+    }
+}
+.insta-link {
+    display: inline-block;
+}
+.insta-icon {
+    display: inline-block;
+    width: 126px;
+    height: 126px;
+    background-image: url('../img/instagram.jpg');
+    background-size: 100% 100%;
+}
+.strong-icon {
+    position: relative;
+    &:before {
+        margin: 0 13px 0 10px;
+        font-family: FontAwesome;
+        content: '\f16d';
+    }
+}

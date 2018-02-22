@@ -1,0 +1,212 @@
+// header
+.navbar-default {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    z-index: 100;
+    background-color: @colorBlack;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0px;
+}
+.navbar {
+     border-radius: 0px; 
+}
+.navbar-collapse {
+    border: rgba(255,255,255,0.2); 
+}
+.navbar-nav {
+    float: none;
+}
+.nav-item {
+    text-align: center;
+}
+.nav-item-link {
+    text-transform: uppercase;
+    color: @colorNavLink !important;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    &:hover {
+        color: @colorWhite !important;
+    }
+}
+// burger-btn
+.icon-bar {
+    background-color: @colorNavLink !important;
+}
+
+// burger-animation
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle span.icon-bar {
+    transition: all 0.15s;
+}
+
+.navbar-toggle span:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle span:nth-child(3) {
+    opacity: 0;
+}
+
+.navbar-toggle span:nth-child(4) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(3) {
+    opacity: 1;
+}
+
+
+.brand-name  {
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    color: @colorWhite !important;
+    position: relative;
+}
+.brand-name,
+.brand-description {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: @colorWhite;
+}
+.brand-description {
+    margin: auto;
+    text-align: center;
+}
+.brand-description {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 25px;
+    width: 300px;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        margin-left: -55px;
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/divider.png);
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/divider.png);
+    }
+}
+.brand-skill {
+    margin: auto;
+    background-size: 100% 100%;
+    width: 60px;
+    height: 70px;
+    background-image: url(../img/pirsing-icon.png);
+    position: relative;
+    &:before {
+        content: "татуировки";
+        position: absolute;
+        margin-top: 25px;
+        margin-left: -115px;
+        letter-spacing: 1px;
+        color: @colorWhite;
+    }
+    &:after {
+        content: "пирсинг";
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 35px;
+        letter-spacing: 1px;
+        color: @colorWhite;
+    }
+}
+
+
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: @colorWhite;
+}
+.header-page {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+    &:before { 
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        // цвет шапки
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -101;
+    video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+    }
+}
+.header-overlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    // background: #225470;
+    opacity: 0.85;
+}
+.header-content {
+    z-index: 2;
+}
+
+.header-content h1{
+  font-size:50px;
+  margin-bottom:0;
+}
+
+.header-content p{
+  font-size:1.5rem;
+  display:block;
+  padding-bottom:2rem;
+}

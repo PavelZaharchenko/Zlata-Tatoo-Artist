@@ -1,0 +1,55 @@
+.footer-background {
+    background: url('../img/bg10.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    position: relative;
+    padding-bottom: 100px;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: rgba(0,0,0,.5);
+    }
+}
+.contacts {
+    color: @colorWhite;
+    background-position: center;
+    background-image: url('../img/yinyang-light.png');
+}
+form,
+#map {
+    margin-top: 20px;
+}
+.form-control {
+    border-radius: 0px;
+}
+#form-submit {
+    color: @colorWhite;
+    cursor: pointer;
+    border-radius: 0px;
+    padding: 10px 15px;
+    background-color: @colorBlack !important;
+    border: 0px; 
+}
+.developer {
+    margin-top: 20px;
+    a {
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+        color: @colorNavLink !important;
+        transition: 0.3s;
+        &:hover {
+            color: @colorWhite !important;
+        }
+    }
+}
+#map {
+    width: 100%;
+    height: 300px;
+}

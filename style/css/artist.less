@@ -1,0 +1,74 @@
+.artist {
+    background-position: center;
+    background-image: url('../img/punch-light.png');
+}
+.zlata-img {
+    margin: auto;
+    filter: grayscale(100%); 
+    width: 265px;
+    height: 350px;
+    border-radius: 15px;
+    background-size: 100% 100%;
+    background-image: url('../img/zlata.jpg');
+
+}
+.artist-title {
+    padding: 20px 0;
+    border-bottom: 1px solid @colorBorderSolid;
+    text-align: center;
+    background-position: center;
+    background-image: url('../img/pens-light.png');
+    background-repeat: no-repeat;
+}
+.artist-description {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    font-size: 0;
+    >a {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        border-radius: 50%;
+        margin: 20px 5px;
+        transition: .5s;
+    }
+    .vkontakte {
+        background: url('../img/vk.png');
+        &:hover {
+            background: url('../img/vkc.png');
+        }
+    }
+    .facebook {
+        background: url('../img/fb.png');
+        &:hover {
+            background: url('../img/fbc.png');
+        }
+    }
+    .instagram {
+        background: url('../img/insta.png');
+        &:hover {
+            background: url('../img/instac.png');
+        }
+    }
+}
+.exhortation {
+    padding: 25px 0;
+    background: url('../img/slider-1.jpg');
+    background-size: cover;
+    background-attachment: fixed, fixed;
+    border-top: 1px solid @colorBlack;
+    border-bottom: 1px solid @colorBlack;
+    h2 {
+        color: @colorWhite;
+        padding: 25px;
+        letter-spacing: 2px;
+        font-weight: 900;
+    }
+    a {
+        color: @colorWhite;
+        font-size: 25px;
+    }
+}
